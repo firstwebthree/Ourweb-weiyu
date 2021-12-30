@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background {    
+		 background: url(../images/a.jpg) no-repeat center center fixed;
+         -webkit-background-size: cover;
+		-o-background-size: cover;                
+		background-size: cover;
+		}
+ 
+.sentence {
+         width:560px;
+         height:60px;
+/*         background-color:#B8B8B0;*/
+         padding-bottom: 20px;
+         padding-left: 20px;
+          padding-right: 20px;
+         padding-top: 20px;
+        }
+.juzi {
+         width:450px;
+         height:30px;
+	     margin-right: 20px;
+/*         background-color:#B8B8B0;
+         padding-bottom: 20px;
+         padding-left: 20px;
+          padding-right: 20px;
+         padding-top: 20px;*/
+	    float: left;
+        }
+.like{ 
+	width:50px;
+    height:30px;
+
+	font-size:23px;  
+	color:gray; 
+	cursor:pointer;
+    float:right;
+	
+}
+.cs{color:black;}
+.top {
+	       position: -webkit-sticky;
+         /*  position: sticky;*/
+            top: 0;
+			width:1000px;
+			height:50px;
+			border:1px none;
+			margin-bottom: 10px;
+			margin-left:75px;
+			margin-right:100px;
+/*			padding-left:100px;*/
+		/*padding-right:10px;*/
+		
+		}
+.topleft {
+			width:500px;
+			height:50px;
+			border:1px none;
+			margin-bottom: 10px;
+			margin-left:0px;
+			margin-right:75px;
+/*			padding-left:100px;*/
+		/*padding-right:10px;*/
+		    float:left;
+		}
+.topright {
+			width:250px;
+			height:50px;
+			border:1px none;
+		/*	margin-bottom: 10px;*/
+			margin-left:50px;
+			margin-right:0px;
+		    padding-top:80px;
+		    padding-left:0px;
+	        float:left;
+		
+		}
+/*div.search {padding: 30px 0;}
+.bar1 {background: #99B8A3;}*/
+.bar1 input {
+	         height: 23px;
+            border: 2px solid #3D3E3E;
+            border-radius: 5px;
+            color: #3D3E3E;
+        }
+        .bar1 button {
+            top: 0;
+            right: 0;
+            background:#9CBDB4;
+            border-radius: 0 5px 5px 0;
+        }
+        .bar1 button:before {
+            content: "\f002";
+            font-family: FontAwesome;
+            font-size: 16px;
+            color: #3D3E3E;
+        }
+		.edge{
+			float:left;
+		    height:12px;
+		    width:70px;
+		   margin-top:10px;
+		   margin-bottom: 10px;
+	     margin-left: 20px;
+			
+			}
+			.circleImg{
+		   border-radius: 30px;
+	           width:40px;
+		   height:40px; 
+	       }
+.big {
+			width:1000px;
+			height:1450px;
+			border:1px none;
+            background-color:rgba(237,245,245,0.60);
+	        filter: alpha(opacity=80);
+            margin-top:100px;
+			margin-bottom:20px;
+			margin-left:75px;
+			margin-right:75px;
+			padding-top:50px;
+			padding-bottom: 50px;
+			padding-left:50px;
+			padding-right:50px;
+			
+		}
+		
+		.left {
+			width:600px;
+			height:1380px;
+			border-width:5px;
+			border:1px dashed gray;
+/*		    background-color:#;*/
+			padding-left:20px;
+			padding-right:20px;
+			padding-top:30px;
+			padding-bottom:30px;
+			margin-right: 100px;
+			float:left;
+		}
+		
+		.right {
+			width:200px;
+			height:1380px;
+			border-width:5px;
+/*			border:1px solid #E22C2F;*/
+/*            background-color: white;*/
+			float:left;
+		}
+	.bottom {
+            width:1000px;
+			height:100px;
+			border:1px none;
+            background-color:rgba(237,245,245,0.50);
+/*	        filter: alpha(opacity=80);*/
+            margin-top:100px;
+			margin-bottom:20px;
+			margin-left:75px;
+			margin-right:75px;
+			padding-top:10px;
+			padding-bottom: 50px;
+			padding-left:50px;
+			padding-right:50px;
+        }
+ .huati {
+         width:560px;
+         height:30px;
+/*       background-color:#B8B8B0;*/
+         padding-bottom: 20px;
+         padding-top: 25px;
+        }
+.pinglun{
+	     width:560px;
+         height:300px;
+	
+}
+    /*设置div样式的整体布局*/
+.page-icon{
+	margin: 20px 0 0 0;/*设置距离顶部20像素*/
+	font-size: 0;/*修复行内元素之间空隙间隔*/
+	text-align: center;/*设置内容居中显示*/
+} 
+ /*设置共有的的样式布局，主要是进行代码优化，提高运行效率*/
+.page-icon a,.page-disabled,.page-next{
+	border:1px solid #ccc;
+	border-radius: 3px;
+	padding: 4px 10px 5px;
+	font-size:14px;/*修复行内元素之间空隙间隔*/
+	margin-right: 10px;
+}
+    
+    /*对 a 标签进行样式布局 */
+.page-icon a{
+	text-decoration: none;
+	color: #005aa0;
+}
+.page-current{
+	color:#ff6600;
+	padding: 4px 10px 5px;
+	font-size:14px;/*修复行内元素之间空隙间隔*/
+}
+    
+.page-disabled{
+	color: #ccc
+    }
+.page-next i,.page-disabled i{
+	cursor:pointer;/*设置鼠标经过时的显示状态为小手状态*/
+	display:inline-block;/*设置显示的方式为行内块元素*/
+	width: 5px;
+	height: 9px;
+	background-color: #635B5B;
+}   
+.page-disabled i{
+	background-position:-80px -608px;
+	margin-right:3px;
+}
+.page-next i{
+	background-position:-62px -608px;
+	margin-left:3px;
+}
